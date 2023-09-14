@@ -1,7 +1,125 @@
-* { 
+:root {
+    /* Cores */
+
+    --linear_gradiente_laranja: linear-gradient(92.46deg, #FF8A29 31.2%, #CF5D00 71.97%);
+    --linear_gradiente_laranja2: linear-gradient(122.71deg, #F99500 53.34%, #FFCD29 133.06%);
+    --linear_gradiente_laranja3: linear-gradient(175.96deg, #F57002 3.3%, rgba(245, 112, 2, 0) 56.06%);
+
+    --ligth-branco: #ffffff;
+    --primaria_laranja: #CF5D00;
+    --secundaria_preto1: #383838;
+    --secundaria_preto2: #121212;
+    --secundaria_cinza1: #787878;
+
+    /* Font size */
+
+    --font_14: 14px;
+    --font_18: 18px;
+    --font_20: 20px;
+    --font_22: 22px;
+    --font_24: 24px;
+    --font_34: 34px;
+    --font_50: 50px;
+    --font_60: 60px;
+    --font_80: 80px;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: red;
 }
 
+/* NAV HEADER TOP */
+
+.header_top {
+    background: var(--linear_gradiente_laranja);
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_top p {
+    margin-left: 290px;
+}
+
+.header_top p, .header_top a {
+    color: var(--ligth-branco);
+    font-size: var(--font_14);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.top_links {
+    display: flex;
+    margin-right: 290px;
+}
+
+.top_contact {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.top_contact img {
+    margin-right: 10px;
+}
+
+
+/* NAV HEADER MIDDLE */
+
+.header_middle {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_paqueta {
+    margin-left: 270px;
+}
+
+.middle_links {
+    display: flex;
+    margin-right: 270px;
+}
+
+.middle_links a {
+    color: var(--font_20);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.middle_action {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.middle_action img {
+    margin-right: 10px;
+}
+
+/* NAV HEADER BOTTOM */
+
+.bottom_list {
+    margin: 50px 0 50px 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.bottom_category {
+    text-decoration: none;
+    color: var(--secundaria_preto1);
+    font-size: var(--font_18);
+    font-weight: 500;
+    cursor: pointer;
+}

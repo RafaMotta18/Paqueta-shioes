@@ -8,118 +8,135 @@
     <title>Paqueta</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="../src/nav/paqueta_logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <nav class="header-nav">
-        <div class="header-top">
-            <p class="header-description">Loja de Calçados e Moda Online</p>
-            <a href="#" class="header-contact">
-                <img src="../src/nav/fale_conosco.png" alt="Ícone de um fone de ouvido">
-                <span>Fale Conosco</span>
-            </a>
-
-            <a href="#" class="header-contact">
-                <img src="../src/nav/localizacao.png" alt="Ícone de um ponto de gps">
-                <span>Encontrar uma loja física</span>
-            </a>
+    <nav class="header_nav">
+        <div class="header_top">
+            <p>Loja de Calçados e Moda Online</p>
+            <div class="top_links">
+                <a href="#" class="top_contact">
+                    <img src="../src/nav/fale_conosco.png" alt="Ícone de um fone de ouvido">
+                    <span>Fale Conosco</span>
+                </a>
+                <a href="#" class="top_contact">
+                    <img src="../src/nav/localizacao.png" alt="Ícone de um ponto de gps">
+                    <span>Encontrar uma loja física</span>
+                </a>
+            </div>
         </div>
 
-        <div class="header-middle">
-            <img src="../src/nav/paqueta_logo.png" alt="Logotipo da Paquetá">
+        <div class="header_middle">
+            <img class="logo_paqueta" src="../src/nav/paqueta_logo.png" alt="Logotipo da Paquetá">
+            <div class="middle_links">
+                <a href="#" class="middle_action">
+                    <img src="../src/nav/lista_de_desejo.png" alt="Ícone de uma lista de desejos">
+                    <span>Lista de Desejos</span>
+                </a>
 
-            <a href="#" class="header-action">
-                <img src="../src/nav/lista_de_desejo.png" alt="Ícone de uma lista de desejos">
-                <span>Lista de Desejos</span>
-            </a>
+                <a href="#" class="middle_action">
+                    <img src="../src/nav/sacola.png" alt="Ícone de uma sacola de compras">
+                    <span>Sacola</span>
+                </a>
 
-            <a href="#" class="header-action">
-                <img src="../src/nav/sacola.png" alt="Ícone de uma sacola de compras">
-                <span>Sacola</span>
-            </a>
-
-            <a href="#" class="header-action">
-                <img src="../src/nav/entrar.png" alt="Ícone de entrada">
-                <span>Entrar</span>
-            </a>
+                <a href="#" class="middle_action">
+                    <img src="../src/nav/entrar.png" alt="Ícone de entrada">
+                    <span>Entrar</span>
+                </a>
+            </div>
         </div>
 
-        <div class="header-bottom">
+        <div class="bottom_list">
             <ul>
-                <li><a href="#" class="header-category">Novidades</a></li>
-                <li><a href="#" class="header-category">Feminino</a></li>
-                <li><a href="#" class="header-category">Masculino</a></li>
-                <li><a href="#" class="header-category">Paquetá Esportes</a></li>
-                <li><a href="#" class="header-category">Outlet</a></li>
-                <li><a href="#" class="header-category">Cashback</a></li>
+                <li><a href="#" class="bottom_category">Novidades</a></li>
+                <li><a href="#" class="bottom_category">Feminino</a></li>
+                <li><a href="#" class="bottom_category">Masculino</a></li>
+                <li><a href="#" class="bottom_category">Paquetá Esportes</a></li>
+                <li><a href="#" class="bottom_category">Outlet</a></li>
+                <li><a href="#" class="bottom_category">Cashback</a></li>
             </ul>
         </div>
     </nav>
 
     <main>
         <section class="main_banner">
-            <p>Teênis Casual <br> <span>Masculino</span></p>
-            <p>A partir de <br> <span>R$ 79,99</span></p>
-            <button>APROVEITE</button>
+            <div class="banner_content">
+                <p>Tênis Casual <span class="masculino">Masculino</span></p>
+                <p class="paragrafo_preco"><span class="preco">A partir de</span>R$ 79,99</p>
+                <button class="main_button">APROVEITE</button>
+            </div>
         </section>
 
 
-        <section class="main-info">
-            <div class="main-info-item">
-                <a href="#" class="main-info-link">
-                    <img src="../src/main/cartao.png" alt="Ícone de um cartão de crédito/débito">
-                    <p>Pague em até 10x <span>sem juros*</span></p>
+        <section class="main_info">
+            <div class="main_info-item">
+                <a href="#" class="main_info_link">
+                    <div>
+                        <img src="../src/main/cartão.png" alt="Ícone de um cartão de crédito/débito">
+                        <p>Pague em até 10x <span>sem juros*</span></p>
+                    </div>
                 </a>
 
-                <a href="#" class="main-info-link">
-                    <img src="../src/main/retire_gratis.png" alt="ícone de um cartão de credito/debito">
-                    <p><span>sem juros*</span>em nossas lojas</p>
+                <a href="#" class="main_info_link">
+                    <div>
+                        <img src="../src/main/retire_gratis.png" alt="ícone de um cartão de credito/debito">
+                        <p><span>Retire gratis</span>em nossas lojas</p>
+                    </div>
                 </a>
 
-                <a href="#" class="main-info-link">
-                    <img src="../src/main/desconto.png" alt="ícone de um cartão de credito/debito">
-                    <span>Ganhe 20% de desconto*</span>
+                <a href="#" class="main_info_link">
+                    <div>
+                        <img src="../src/main/desconto.png" alt="ícone de um cartão de credito/debito">
+                        <span>Ganhe 20% de desconto*</span>
+                    </div>
                 </a>
 
-                <a href="#" class="main-info-link">
-                    <img src="../src/main/frete_gratis.png" alt="ícone de um cartão de credito/debito">
-                    <p><span>Frete grátis</span>para regiões sul e sudeste</p>
+                <a href="#" class="main_info_link">
+                    <div>
+                        <img src="../src/main/frete_gratis.png" alt="ícone de um cartão de credito/debito">
+                        <p><span>Frete grátis</span>para regiões sul e sudeste</p>
+                    </div>
                 </a>
 
-                <a href="#" class="main-info-link">
-                    <img src="../src/main/troca.png" alt="ícone de um cartão de credito/debito">
-                    <p>Primeira troca grátis</p>
+                <a href="#" class="main_info_link">
+                    <div>
+                        <img src="../src/main/troca.png" alt="ícone de um cartão de credito/debito">
+                        <p>Primeira troca grátis</p>
+                    </div>
                 </a>
 
             </div>
         </section>
 
-        <section class="shoes-fem">
-            <div class="shoes-fem-image">
+        <section class="shoes_fem">
+            <div class="shoes_fem_image">
                 <img src="../src/main/calcados_fem.png" alt="Imagem de sapatos femininos">
             </div>
-            <div class="shoes-fem-content">
+            <div class="shoes_fem_content">
                 <p>Escolher o seu sapato favorito entre nossa variedade de modelos e cores não será uma tarefa fácil,
                     mas o que uma mulher não consegue fazer?</p>
                 <button>CONFERIR</button>
             </div>
         </section>
 
-        <section class="shoes-mas">
-            <div class="shoes-mas-content">
+        <section class="shoes_mas">
+            <div class="shoes_mas_content">
                 <p>Tenha em seu guarda-roupa sapatos de qualidade e confortáveis, para o dia a dia, trabalho e até mesmo
                     para praticar esportes!</p>
                 <button>CONFERIR</button>
             </div>
-            <div class="shoes-mas-image">
+            <div class="shoes_mas_image">
                 <img src="../src/main/calcados_mas.png" alt="Imagem de sapatos masculinos">
             </div>
         </section>
 
         <section class="brands">
             <p>As melhores marcas estão aqui</p>
-            <div class="brands-logos">
+            <div class="brands_logos">
                 <img src="../src/main/adidas.png" alt="Logo Adidas">
                 <img src="../src/main/viamarte.png" alt="Logo Via Marte">
                 <img src="../src/main/bebece.png" alt="Logo Bebecê">
